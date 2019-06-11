@@ -1,0 +1,90 @@
+*{margin:0;padding:0;}
+body{ font-family:"Arial", "Helvetica", "sans-serif", "微软雅黑", "宋体"; font-size:11px; color:#8d8f92;}
+ul{ list-style:none;}
+img{border:0;}
+.clear{clear:both;}
+#projectDesc p img{margin-bottom:10px;}
+#projectContainer p img{margin-bottom:10px;}
+.newsPic p img{margin-bottom:10px;}
+a{ text-decoration:none}
+a:link{color:#8d8f92;}
+a:visited{color:#8d8f92;}
+a:hover{color:#333333;}
+a:actived{color:#333333;}
+
+.current a{color:#333333;font-weight:bold;}
+a.current{color:#333333;font-weight:bold}
+a.link1:link{color:#333333;}
+a.link1:visited{color:#333333;}
+a.link1:hover{color:#8d8f92;}
+a.link1:actived{color:#8d8f92;}
+
+
+#wrapper{width:1000px; margin:0 auto;}
+
+
+
+#header{ height:158px; width:100%; padding-top:22px; position:relative}
+#logo{ width:240px; float:left}
+#nav{float:left; width:208px; margin-left:15px;}
+#subNav{float:left; width:100px;margin-left:15px;}
+#links{ float:right; line-height:1.8em; text-align:right}
+#links a{ text-decoration:underline;}
+
+.lang{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+.lang ul li{
+ 	float:left;
+	margin-right:10px;
+}
+
+.lang ul li.last{
+	margin-right:0px;
+}
+#threeNav{width:230px;float:left;margin-left:16px;}
+
+#main{padding:16px 0; width:100%; overflow:hidden}
+
+h1,h2{font-size:11px;color:#414042; padding:16px 0;}
+h2{ font-weight:normal;}
+#footer{float:left;margin-bottom:20px;}
+.left{float:left}
+.right{float:right}
+.width_500{width:500px;}
+.width_240{width:240px;}
+
+
+/*------news-------*/
+#newsItems{width:100%;float:left;}
+.newsText{ width:230px;float:left;}
+.newsText p{  padding:10px 0; text-align:justify;}
+.newsText h1,.newsText h2{ font-size:11px; padding:0;}
+.newsPic{float:right; width:750px;}
+.newsIndex p{margin-bottom:20px; text-align:justify}
+#newsItems li{margin-bottom:20px;float:left; width:100%; border-bottom:#666666; border-bottom-width:1px; border-bottom-style:dashed;
+padding-bottom:20px;
+}
+
+#contact{ float:left;margin-left:16px;}
+
+#designerContainer{margin-top:20px;float:left;}
+#designerText{width:240px;float:left;color:#8d8f92;"}
+#designerDesc{float:left; width:490px;}
+#designerDesc p{padding-bottom:20px; text-align:justify}
+
+
+/*product*/
+.prodList li{ float:left; width:238px; height:158px; margin-right:14px; margin-bottom:15px;}
+.prodList li.last{margin-right:0px;}
+.prodList li img{border:1px solid #ffffff;}
+.prodList li a:hover img{border:1px solid #414042;}
+
+
+/*projuect*/
+#projectContainer{ width:1000px;float:right}
+.projectDesc p{ padding-bottom:20px; text-align:justify}
+.projectDesc h1,.projectDesc h2{ font-size:11px; padding:0;}
+.projectDesc h2{margin-bottom:10px;}
